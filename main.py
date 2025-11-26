@@ -308,3 +308,10 @@ if __name__ == '__main__':
         if keyPressed[pygame.K_ESCAPE]:
             pygame.quit()
             exit()
+
+# Known bugs and issues 
+
+'''
+            Rescale window having issues on different platforms atm.
+            Image quality drops when scaled higher.
+'''
