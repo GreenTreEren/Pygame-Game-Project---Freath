@@ -25,7 +25,7 @@ screenWidth, screenHeight = screen.get_size()
 screen = pygame.display.set_mode((screenWidth, screenHeight), pygame.FULLSCREEN | pygame.NOFRAME)
 
 
-# 1392, 760 Scaling Test Screen
+            # 1392, 760 Scaling Test Screen
 #screenWidth, screenHeight = 1392, 760
 #screen = pygame.display.set_mode((screenWidth, screenHeight), pygame.NOFRAME)
 
@@ -38,7 +38,7 @@ clock = pygame.time.Clock()
 
 
 
-# Image Scaler (Testing)
+# Image Scaler
 
 def imageScaler(image):
     width, height = image.get_width(), image.get_height()
@@ -308,10 +308,3 @@ if __name__ == '__main__':
         if keyPressed[pygame.K_ESCAPE]:
             pygame.quit()
             exit()
-
-# Known bugs and issues 
-
-'''
-            Rescale window having issues on different platforms atm.
-            Image quality drops when scaled higher.
-'''
